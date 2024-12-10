@@ -1,0 +1,19 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "service/",
+    "sdk/anthic-client",
+    "sdk/anthic-model",
+    "sdk/anthic-subintents",
+    "sdk/anthic-trade-api-client",
+]
+
+[workspace.dependencies]
+
+radix-common = { git = "https://github.com/radixdlt/radixdlt-scrypto",  tag = "cuttlefish-c3aa4337" }
+radix-common-derive = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "cuttlefish-c3aa4337" }
+radix-transactions = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "cuttlefish-c3aa4337" }
+radix-engine-interface = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "cuttlefish-c3aa4337" }
+sbor = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "cuttlefish-c3aa4337" }

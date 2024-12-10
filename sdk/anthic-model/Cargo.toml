@@ -1,0 +1,11 @@
+[package]
+name = "anthic-model"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+radix-common = { workspace = true }
+radix-common-derive = { workspace = true }
+radix-transactions = { workspace = true }
+radix-engine-interface = { workspace = true }
+sbor = { workspace = true }
